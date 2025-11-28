@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sleep in Cádiz - Alojamientos y turismo en Cádiz</title>
+  <meta name="description" content="Los mejores hoteles y apartamentos en Cádiz. Descubre qué hacer, playas, gastronomía y todo lo que esta joya andaluza tiene para ti."/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Enlace al CSS externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#alojamientos">Hoteles</a></li>
+      <li><a href="#que-hacer">Qué hacer</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <div class="hero">
+      <h1>Sleep in Cádiz</h1>
+      <p>Descubre la magia de la Tacita de Plata: alojamientos con encanto, playas doradas y la mejor gastronomía andaluza.</p>
+    </div>
+  </header>
+
+  <section id="alojamientos">
+    <h2>Nuestros Alojamientos Recomendados</h2>
+    <div class="cards">
+      
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2506988/pexels-photo-2506988.jpeg" alt="Hotel Playa de la Victoria">
+        <div class="card-body">
+          <h3>Hotel Playa de la Victoria</h3>
+          <p>Frente a la playa más famosa de Cádiz. Habitaciones modernas con vistas al mar.</p>
+          <p class="price">Desde 95€ / noche</p>
+          <a href="#" class="btn">Reservar ahora</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg" alt="Parador de Cádiz">
+        <div class="card-body">
+          <h3>Parador de Cádiz</h3>
+          <p>Hotel moderno con piscina infinita y vistas espectaculares al Atlántico.</p>
+          <p class="price">Desde 145€ / noche</p>
+          <a href="#" class="btn">Reservar ahora</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg" alt="Apartamentos Centro Histórico">
+        <div class="card-body">
+          <h3>Apartamentos Casa del Mar</h3>
+          <p>En pleno casco antiguo, a 2 minutos de la Catedral y el mercado.</p>
+          <p class="price">Desde 78€ / noche</p>
+          <a href="#" class="btn">Reservar ahora</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="activities" id="que-hacer">
+    <h2>Qué hacer en Cádiz</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="./img/playa-cadiz.png" alt="Playas de cadiz">
+        <div class="card-body">
+          <h3>Playas inolvidables</h3>
+          <p>La Caleta, Victoria, Santa María del Mar… kilómetros de arena dorada y atardeceres únicos.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./img/catedral-cadiz.png" alt="Catedral de cadiz">
+          <h3>Casco Antiguo y Catedral</h3>
+          <p>Pasea por callejones llenos de historia, visita la Catedral y sube a la Torre de Poniente.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/comida.png" alt="Gastronomía gaditana">
+        <div class="card-body">
+          <h3>Gastronomía y tapeo</h3>
+          <p>Pescaíto frito, tortillitas de camarones, atún de almadraba y los mejores vinos de Jerez.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+    <!-- ====== NUEVA SECCIÓN DE CONTACTO ====== -->
+  <section id="contacto" class="contact-section">
+    <h2>Contáctanos</h2>
+    <p class="contact-subtitle">Reserva tu estancia o resuelve cualquier duda. Te respondemos en menos de 24 h.</p>
+
+    <form action="https://formspree.io/f/tu-codigo-aqui" method="POST" class="contact-form">
+      <div class="form-group">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="_replyto" placeholder="Tu email" required>
+      </div>
+
+      <div class="form-group">
+        <input type="tel" name="telefono" placeholder="Teléfono (opcional)">
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="fechas" placeholder="Fechas aproximadas de estancia (opcional)">
+      </div>
+
+      <div class="form-group">
+        <textarea name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer id="contacto">
+    <p>© 2025 Sleep in Cádiz • Tu hogar lejos de casa en la Tacita de Plata</p>
+    <p>Contacto: info@sleepincadiz.com | +34 656 123 456</p>
+  </footer>
+
+</body>
+</html>
